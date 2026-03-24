@@ -1,0 +1,29 @@
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14pt;
+    font-weight: bold; 
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+th, td {
+    border: 3px solid black;
+    padding: 20px;
+}
+
+thead th {
+    background-color: #c2e1f1d2; 
+}
+th, .sidebar {
+    background-color: #d3d3d3; 
+
+
+tbody td:not(.sidebar) {
+    background-color: #ffffff;
+}
